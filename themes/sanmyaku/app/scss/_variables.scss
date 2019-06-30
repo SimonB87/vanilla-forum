@@ -1,0 +1,53 @@
+// _variables.scss --root styles folder
+// We use this file to setup the variables that will be use throughout the
+// project. Color's and other global things are good here.
+// No styling code here. Only variables.
+/////////////////////////////////////////////////////////////////////////
+
+
+$black           : #000000;
+$cod-gray        : #101010;
+$onyx            : #131313;
+$rangoon-green   : #191919;
+$lightblack      : #1F1F1F;
+$dark-oil        : #202020;
+$blue            : #2196F3;
+$oil             : #222222;
+$light-oil       : #242424;
+$bastille        : #2F2F2F;
+$midnight-blue   : #2F4E6F;
+$shark           : #383838;
+$charcoal        : #414141;
+$armadillo       : #4A4A4A;
+$ship-gray       : #4E4E4E;
+$green           : #4CAF50;
+$picton-blue     : #55C2E7;
+$dark-gray-2     : #575757;
+$boulder         : #7B7B7A;
+$tin             : #808080;
+$mountain-mist   : #929292;
+$nepal           : #98B1C4;
+$aluminum        : #999999;
+$dark-gray       : #A7A7A7;
+$silver-sand     : #BBBBBB;
+$cardinal        : #C1223B;
+$botticelli      : #C8D7E3;
+$silver          : #CCCCCC;
+$dark-terra-cota : #CD4E61;
+$wan-white       : #E4E2DD;
+$seashell        : #F1F1F1;
+$scarlet         : #F92E4D;
+$gold            : #FFD430;
+$snow            : #FFFCFC;
+$white           : #FFFFFF;
+
+/////////////////////////////////////////////////////////////////////////
+// Fonts
+$open-sans:      'Open Sans', Helvetica, Arial, sans-serif;
+$josefin-sans:   'Josefin Sans', Helvetica, Arial, sans-serif;
+
+/////////////////////////////////////////////////////////////////////////
+// Default Settings
+$footer-logo: '/themes/sanmyaku/design/images/vanilla-logo.png';
+$tab-bar-logo: '/themes/sanmyaku/design/images/vanilla-logo.png';
+$logo-width: 6.25rem; // 100px

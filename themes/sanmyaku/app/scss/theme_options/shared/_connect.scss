@@ -1,0 +1,19 @@
+// _connect.scss - theme_options/dark/
+////////////////////////////////////////////////////////////////////////////////
+
+
+.connect .Connect{
+  .WhoIs{
+    .Name, h3{
+      color: $page-headers;
+    }
+  }
+  .ExistingUsername{
+    &, strong{
+      color: $silver-sand;
+    }
+  }
+  .FinePrint{
+    color: $scarlet;
+  }
+}

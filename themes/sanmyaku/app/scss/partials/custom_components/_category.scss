@@ -1,0 +1,131 @@
+// _category.scss - partials/custom_components
+////////////////////////////////////////////////////////////////////////////////
+
+
+//General Layout
+.CategoryList{
+  padding-bottom: rem-calc(30);
+}
+
+// Fix icon spacing
+.CategoryList{
+  .Meta{
+    span{
+      font-weight: normal;
+    }
+    .MItem.CommentCount{
+      margin-right: rem-calc(8);
+    }
+  }
+  .Category{
+    .PhotoWrap-Category{
+      margin: rem-calc(10 20 10 25);
+      @media #{$small-only} {
+        display: none;
+      }
+      &, & .CategoryPhoto{
+        border-radius: 50%;
+        height: rem-calc(40);
+        width: rem-calc(40);
+      }
+      .CategoryPhoto{
+        border: 2px solid;
+      }
+    }
+    .Options{
+      .OptionsTitle{
+        margin-right: rem-calc(-10);
+      }
+    }
+  }
+}
+
+// RSS Spacing
+.DataList .Meta .RSS{
+  margin-right: 0;
+}
+
+// Fix Last Discussion Title spacing
+.CategoryList{
+  .Meta .MItem.LastDiscussionTitle{
+    @media #{$small-up}{
+      white-space: pre-wrap;
+    }
+    @media #{$large-up}{
+      white-space: nowrap;
+    }
+    a:first-child{
+      margin: rem-calc(0 5);
+    }
+  }
+}
+
+// Category Description
+.CategoryList{
+  .Item{
+    .CategoryDescription{
+      font-size: rem-calc(15);
+      line-height: rem-calc(22);
+      width: 75%;
+    }
+  }
+}
+
+// Category Spacing with/without category icons
+.CategoryList{
+  .Item .PhotoWrap-Category{
+    &.NoPhoto{
+      & + .TitleWrap, & ~ .Meta,
+      & ~ .CategoryDescription{
+        margin-left: rem-calc(10);
+        @media #{$medium-up}{
+          margin-left: rem-calc(25);
+        }
+      }
+    }
+    &:not(.NoPhoto){
+      & + .TitleWrap, & ~ .Meta,
+      & ~.CategoryDescription{
+        margin-left: rem-calc(10);
+        @media #{$medium-up} {
+          margin-left: rem-calc(85);
+        }
+      }
+    }
+  }
+}
+
+
+// Child Categories
+.CategoryList{
+  .Category{
+    .ChildCategories{
+      border: none;
+      b{
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+      &, b, a{
+        font-size: rem-calc(13);
+        line-height: rem-calc(22);
+      }
+      a{
+        padding-bottom: rem-calc(3);
+        border-bottom: 1px solid transparent;
+      }
+    }
+  }
+}
+
+// Child Category Page
+.ChildCategoryList{
+  .Category{
+    width: 100%;
+    .CategoryDescription{
+      margin-left: rem-calc(10);
+      @media #{$medium-up} {
+        margin-left: rem-calc(25);
+      }
+    }
+  }
+}

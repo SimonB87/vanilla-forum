@@ -1,0 +1,20 @@
+// _breadcrumbs.scss - theme-options/dark
+// BreadCrumbs Styles
+////////////////////////////////////////////////////////////////////////////////
+
+
+.breadcrumb-container{
+  .breadcrumbs li{
+    &:hover a{
+      border-color: $breadcrumb-border;
+      color: $breadcrumb-text-hover;
+    }
+    a{
+      color: $breadcrumb-text;
+    }
+  }
+  .breadcrumbs > *:before,
+  .Breadcrumbs > *:before{
+    color: $text-separator;
+  }
+}

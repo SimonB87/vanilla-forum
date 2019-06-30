@@ -1,0 +1,43 @@
+// _my-drafts.scss - partials/custom_components
+////////////////////////////////////////////////////////////////////////////////
+
+
+// General Layout
+.Drafts{
+  .Draft{
+    padding: rem-calc(20 25);
+    .ItemContent{
+      .Title{
+        max-width: 80%;
+        display: inline-block;
+        font-size: rem-calc(24);
+        font-weight: 300;
+        line-height: rem-calc(34);
+        border-bottom: 1px solid transparent;
+        padding-bottom: rem-calc(3);
+      }
+      .Excerpt{
+        a{
+          font-size: rem-calc(15);
+          font-weight: 300;
+          line-height: rem-calc(22);
+          border-bottom: 1px solid transparent;
+          padding-bottom: rem-calc(3);
+        }
+      }
+    }
+  }
+}
+
+// Delete Button
+.Drafts{
+  .Draft{
+    .Options{
+      .Delete{
+        position: absolute;
+        top: rem-calc(-10);
+        right: rem-calc(5);
+      }
+    }
+  }
+}

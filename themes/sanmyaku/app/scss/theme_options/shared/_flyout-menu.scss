@@ -1,0 +1,15 @@
+// _flyout-menu.scss - theme_options/dark
+////////////////////////////////////////////////////////////////////////////////
+
+
+// !important is used in the plugin stylesheet
+// Had to use !important to override those styles.
+.MenuItems{
+  a{
+    color: $silver-sand !important;
+    &:hover{
+      color: $primary-btn-text !important;
+      background: $primary-btn-border !important;
+    }
+  }
+}

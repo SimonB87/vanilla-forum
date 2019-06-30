@@ -1,0 +1,52 @@
+// _activities-comments.scss - theme-options/dark
+////////////////////////////////////////////////////////////////////
+
+
+// Comments & Activity
+.Activities,
+.Conversations{
+  .ActivityComments{
+    .ActivityComment{
+      border-color: $charcoal;
+    }
+  }
+}
+.Activities{
+  .Activity{
+    .Delete{
+      color: $silver-sand;
+      &:hover{
+        color: $link-border;
+      }
+    }
+  }
+  .ItemContent{
+    .Title, .Excerpt{
+      color: $silver-sand;
+    }
+    .Meta{
+      color: $meta-text;
+      .AddComment{
+        @extend %link;
+      }
+    }
+  }
+}
+.Activities{
+  .Activity,
+  .ActivityComment{
+    .Title a,
+    .Meta a,
+    .Name{
+      @extend %link;
+    }
+  }
+}
+.Activities .Activity .Meta:not(.Photo) a:hover{
+	border-color: $link-border;
+}
+
+// Form header user name
+.Form-Header .Username{
+  @extend %link;
+}

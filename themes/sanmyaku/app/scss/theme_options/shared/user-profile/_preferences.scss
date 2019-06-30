@@ -1,0 +1,35 @@
+// _preferences.scss - theme_options/dark/user-profile
+////////////////////////////////////////////////////////////////////////////////
+
+
+.Preferences{
+  h2{
+    color: $page-headers;
+  }
+  .PreferenceGroup{
+    background: transparent;
+    thead, tbody, tr, td{
+      background: transparent;
+    }
+    thead td{
+      color: $white;
+    }
+    tbody{
+      tr{
+        &:hover{
+          background: $dark-oil;
+          td{
+            background: transparent;
+          }
+        }
+        td{
+          color: $paragraph-text;
+        }
+      }
+    }
+  }
+  .InfoMessage{
+    background: transparent;
+    color: $paragraph-text;
+  }
+}

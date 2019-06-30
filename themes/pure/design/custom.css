@@ -1,0 +1,621 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+body, h1, h2, h3, h4, h5, h6, .SiteTitle {
+    font-family: lato, sans-serif;
+}
+
+body {
+    font-size: 1em;
+}
+
+body,
+.UserBox,
+.Username,
+.Username:hover,
+.MeBox .Username,
+.PopList .Item.Title,
+.PopList .Item.Title a,
+.ButtonGroup .Dropdown,
+.OptionsMenu,
+.MenuItems,
+.Button,
+.DataList .Excerpt,
+.Activities a.Title,
+.Activities .Title,
+.Activities .Title a,
+.DataTable .Title {
+    font-size: 1em;
+    color: #333;
+}
+
+.ItemDiscussion .Meta,
+.HasNew,
+.DataList .Meta,
+.DataTable .Meta,
+.DataTable .MItem,
+.BlockTitle,
+.SiteSearch .InputBox,
+dl.About dt,
+dl.About dd,
+.InformMessages,
+.ButtonBarMarkupHint,
+.editor-help-text {
+    font-size: .9em;
+}
+
+.BigButton, .DataList .Title, .SiteMenu a, .Pager, .BigCount .Number {
+    font-size: 1.2em;
+}
+
+.SiteTitle {
+    font-size: 2em;
+}
+
+.SiteMenu a:hover {
+    text-decoration: none;
+}
+
+.FormWrapper,
+.PopList .Item:hover,
+#Panel .FilterMenu .Active,
+.PanelInfo .Active,
+.MeButton:hover,
+.Item.Read,
+body.Profile.EditMode #Content form,
+.NavButton {
+    background: none;
+}
+
+#Panel .FilterMenu li:first-child,
+.PanelInfo li:first-child {
+    border-top: none;
+}
+
+.DataList .Item:last-child,
+.NarrowList .Item:last-child,
+#Panel .FilterMenu li:last-child,
+.PanelInfo li:last-child {
+    border-bottom: none;
+}
+
+#Panel .FilterMenu,
+.PanelInfo {
+    margin-bottom: 20px;
+}
+
+.Pager {
+    margin-top: -5px;
+}
+
+#PagerBefore {
+    margin-top: -8px;
+}
+
+.Pager a, .Pager span {
+    display: inline-block;
+    padding: 10px 5px;
+    opacity: 0.8;
+    margin: 0;
+}
+
+.FlyoutMenu,
+.MenuItems,
+.NavButton {
+    box-shadow: none;
+    /*border-radius:0;*/;
+}
+
+input.SmallInput:focus, input.InputBox:focus, textarea:focus {
+    background: white;
+}
+
+.ProfilePhoto {
+    border-radius: 50%;
+}
+
+#Head .SiteSearch {
+    float: right;
+    margin-top: -7px;
+}
+
+#Foot .PoweredByVanilla,
+.PoweredByVanilla:hover {
+    width: auto;
+    line-height: 1;
+    font-size: 1em;
+    background: none;
+    color: #666;
+}
+
+a.ChangePicture {
+    max-width: 200px;
+}
+
+dl.About dt {
+    background-position: 2px -135px;
+}
+
+dl.About dt.Name {
+    background-position: 0 -22px;
+}
+
+dl.About dt.Email {
+    background-position: 0 -49px;
+}
+
+dl.About dt.Joined,
+dl.About dt.LastActive {
+    background-position: 0 7px;
+}
+
+dl.About dt.Roles {
+    background-position: 1px -77px;
+}
+
+dl.About dt.Posts {
+    background-position: 0 -109px;
+}
+
+dl.About dd {
+    padding: 0 8px 0 0;
+}
+
+.Sprite16, .OptionsTitle {
+    opacity: 0.65;
+}
+
+.SpDashboard, .SpOptions, .SpCog {
+    background-position: 0px -84px;
+}
+
+.SpNotifications, .SpGlobe {
+    background-position: -32px -84px;
+}
+
+.SpInbox, .SpEnvelope {
+    background-position: 0px -100px;
+}
+
+.SpBookmarks, .SpStar {
+    background-position: -80px -116px;
+}
+
+.Item .Bookmark {
+    visibility: hidden;
+}
+
+.Item:hover .Bookmark, .Item.Open .Bookmark,.Item .Bookmarked,.Item .Bookmarking {
+    visibility: visible;
+}
+
+.DataList a.Delete:hover {
+    background: none;
+    color: #333;
+}
+
+.Border {
+    background: white;
+    border-radius: 0;
+    padding: 10px 20px;
+}
+
+.Overlay {
+    background: rgba(82, 82, 82, 0.7);
+    animation: fadein .3s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.BarWrap {
+    background: none;
+    border: none;
+    padding-bottom: 5px;
+}
+
+.ButtonBar .ButtonWrap {
+    border: none;
+}
+
+/* Pure */
+a,
+.FlyoutMenu a, a:hover, a.TextColor:hover, a:hover .TextColor {
+    text-decoration: none;
+    color: #3B8BBA;
+}
+
+.Item.New .Title,
+.Item.New .Title a,
+.Item.Unread .Title,
+.Item.Unread .Title a {
+    color: #3D4F5D;
+}
+
+#Head a:hover {
+    color: rgb(230, 246, 255);
+}
+
+.BoxFilter a, .Box a {
+    color: #3D4F5D;
+}
+
+#Head {
+    background: #3D4F5D;
+    margin-bottom: 3px;
+}
+
+.MenuItems a,
+.MenuItems a:link,
+.MenuItems a:visited,
+.MenuItems a:active {
+    color: #777 !important;
+    padding: 5px 20px;
+}
+
+.MenuItems a:hover {
+    color: #777 !important;
+    background-color: #eee !important;
+}
+
+.DataList .MItem.Category a,
+.DiscussionMeta .MItem.Category a,
+.HasNew,
+.Count,
+.Tag {
+    background: #819AA9;
+    color: white;
+    padding: .1em .4em .2em;
+    border-radius: 2px;
+}
+
+.JustNew {
+    display: inline;
+}
+
+.HasNew {
+    background-color: #0078e7;
+    font-weight: normal;
+}
+
+a.Bookmarked:hover {
+    background-position: 0px -42px;
+}
+
+/* Buttons */
+
+.Button {
+    display: inline-block;
+    *display: inline;
+ /*IE 6/7*/
+    zoom: 1;
+    line-height: normal;
+    white-space: nowrap;
+    vertical-align: baseline;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+.Button {
+    font-family: inherit;
+    font-size: 100%;
+    padding: 0.5em 1em;
+    color: #444;
+ /* rgba not supported (IE 8) */
+    color: rgba(0, 0, 0, 0.80);
+ /* rgba supported */
+    border: 1px solid #999;
+ /*IE 6/7/8*/
+    border: none rgba(0, 0, 0, 0);
+ /*IE9 + everything else*/
+    background: #E6E6E6;
+    box-shadow: none;
+    text-shadow: none;
+    border-radius: 2px;
+}
+
+.Button:hover,
+.Button:hover:active,
+.Button:focus {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#1a000000',GradientType=0);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), color-stop(40%, rgba(0,0,0, 0.05)), to(rgba(0,0,0, 0.10)));
+    background-image: -webkit-linear-gradient(transparent, rgba(0,0,0, 0.05) 40%, rgba(0,0,0, 0.10));
+    background-image: -moz-linear-gradient(top, rgba(0,0,0, 0.05) 0%, rgba(0,0,0, 0.10));
+    background-image: -o-linear-gradient(transparent, rgba(0,0,0, 0.05) 40%, rgba(0,0,0, 0.10));
+    background-image: linear-gradient(transparent, rgba(0,0,0, 0.05) 40%, rgba(0,0,0, 0.10));
+}
+
+.Button:focus {
+    outline: 0;
+    background-color: #E6E6E6;
+}
+
+.Button:active {
+    box-shadow: 0 0 0 1px rgba(0,0,0, 0.15) inset, 0 0 6px rgba(0,0,0, 0.20) inset;
+    background: #E6E6E6;
+}
+
+.Button[disabled] {
+    border: none;
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    filter: alpha(opacity=40);
+    -khtml-opacity: 0.40;
+    -moz-opacity: 0.40;
+    opacity: 0.40;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+.Button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+.Button.Primary {
+    background-color: rgb(0, 120, 231);
+    color: #fff;
+}
+
+.Button.Hidden {
+    display: none;
+}
+
+.BigButton {
+    display: block;
+    text-align: center;
+    padding: 8px 10px;
+}
+
+.SiteSearch .Button,
+.SiteSearch .Button:active {
+    background: url('../../../applications/dashboard/design/images/sprites.png') no-repeat scroll 0px -196px transparent;
+    box-shadow: none;
+    margin: 4px;
+}
+
+/* Forms */
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="url"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+select,
+textarea {
+    padding: 0.5em 0.6em;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input:not([type]) {
+    padding: 0.5em 0.6em;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input[type="color"] {
+    padding: 0.2em 0.5em;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+select:focus,
+textarea:focus {
+    outline: 0;
+    outline: thin dotted \9;
+ /* IE6-9 */
+    border-color: #129FEA;
+}
+
+input:not([type]):focus {
+    outline: 0;
+    outline: thin dotted \9;
+ /* IE6-9 */
+    border-color: #129FEA;
+}
+
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+    outline: thin dotted #333;
+    outline: 1px auto #129FEA;
+}
+
+input[type="text"][disabled],
+input[type="password"][disabled],
+input[type="email"][disabled],
+input[type="url"][disabled],
+input[type="date"][disabled],
+input[type="month"][disabled],
+input[type="time"][disabled],
+input[type="datetime"][disabled],
+input[type="datetime-local"][disabled],
+input[type="week"][disabled],
+input[type="number"][disabled],
+input[type="search"][disabled],
+input[type="tel"][disabled],
+input[type="color"][disabled],
+select[disabled],
+textarea[disabled] {
+    cursor: not-allowed;
+    background-color: #eaeded;
+    color: #cad2d3;
+}
+
+input:not([type])[disabled] {
+    cursor: not-allowed;
+    background-color: #eaeded;
+    color: #cad2d3;
+}
+
+input[readonly],
+select[readonly],
+textarea[readonly] {
+    background: #eee;
+ /* menu hover bg color */
+    color: #777;
+ /* menu text color */
+    border-color: #ccc;
+}
+
+input:focus:invalid,
+textarea:focus:invalid,
+select:focus:invalid {
+    color: #b94a48;
+    border-color: #ee5f5b;
+}
+
+input:focus:invalid:focus,
+textarea:focus:invalid:focus,
+select:focus:invalid:focus {
+    border-color: #e9322d;
+}
+
+input[type="file"]:focus:invalid:focus,
+input[type="radio"]:focus:invalid:focus,
+input[type="checkbox"]:focus:invalid:focus {
+    outline-color: #e9322d;
+}
+
+select {
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+select[multiple] {
+    height: auto;
+}
+
+label {
+    margin: 0.5em 0 0.2em;
+}
+
+fieldset {
+    margin: 0;
+    padding: 0.35em 0 0.75em;
+    border: 0;
+}
+
+legend {
+    display: block;
+    width: 100%;
+    padding: 0.3em 0;
+    margin-bottom: 0.3em;
+    color: #333;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.token-input-list input {
+    box-shadow: none;
+}
+
+textarea.MultiComplete {
+    min-height: 38px;
+}
+
+/* Layout */
+
+#Panel {
+    width: 220px;
+}
+
+#Body .ContentColumn {
+    margin-left: 255px;
+}
+
+.Row {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1100px;
+    min-width: 940px;
+}
+
+@media (max-width: 1100px) {
+    #Panel {
+        width: 220px;
+    }
+
+    #Body .ContentColumn {
+        margin-left: 240px;
+    }
+}
+
+@media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (orientation: portrait),
+    (max-width: 960px) {
+    #Panel {
+        display: none;
+    }
+
+    #Body .ContentColumn {
+        margin: 0;
+    }
+
+    .Row {
+        width: inherit;
+        margin: 0 20px;
+        min-width: inherit;
+    }
+
+    #Head .MeWrap {
+        right: 40px !Important;
+    }
+
+    #Content .BoxNewDiscussion {
+        display: inline-block;
+    }
+
+    #Content .BoxNewDiscussion .MenuItems {
+        min-width: 175px;
+    }
+}

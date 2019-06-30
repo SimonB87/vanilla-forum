@@ -1,0 +1,27 @@
+// _pagination.scss - theme-options/dark
+// Pagination Styles
+// default styles found in foundation_components/_paginiation.scss
+////////////////////////////////////////////////////////////////////////////////
+
+
+// Pagination colors
+.Pager {
+  > a {
+    color: $snow;
+    &:hover,
+    a:focus {
+      color: $paragraph-text;
+    }
+  }
+  > span {
+    color: $snow;
+  }
+  .Highlight {
+    color: $paragraph-text;
+  }
+}
+
+.Search .PageControls {
+  background: $box-filter-background;
+  border-color: $charcoal;
+}

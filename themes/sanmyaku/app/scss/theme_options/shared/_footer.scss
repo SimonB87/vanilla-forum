@@ -1,0 +1,55 @@
+// _footer.scss - theme-options/dark
+// Footer Styles
+// default styles found in custom_components/_footer.scss
+////////////////////////////////////////////////////////////////////////////////
+
+
+// Footer Main Section layout
+.global-footer{
+	.footer-main{
+		background: $footer-main-background;
+		@media screen and (min-width: 48.13rem){
+			background: $footer-main-background url($footer-background-image) no-repeat center;
+		}
+	}
+}
+
+// General footer layout stuff
+.global-footer{
+	background: $global-footer-background;
+	color: $white;
+	border-color: $footer-border-top;
+}
+
+// Footer links
+.global-footer{
+	.footer-links{
+		a{
+			@include link-colors($breadcrumb-text, $breadcrumb-text-hover, $breadcrumb-border);
+		}
+	}
+}
+
+// Footer button style
+.global-footer{
+	.footer-button{
+		border-color: $link-border;
+		color: $seashell;
+	}
+}
+
+// Footer Copyright
+.global-footer{
+	.footer-copyright{
+		background: $charcoal;
+		color: $tin;
+	}
+}
+
+// Footer Logo
+.global-footer{
+	.footer-logo{
+		background: url($footer-logo) no-repeat center;
+		background-size: contain;
+	}
+}

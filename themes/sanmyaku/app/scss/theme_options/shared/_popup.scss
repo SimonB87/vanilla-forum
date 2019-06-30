@@ -1,0 +1,101 @@
+// _popup.scss - theme-options/dark
+//////////////////////////////////////////////////////////////////////
+
+// Popup Styles
+.Overlay{
+  background: rgba($lightblack, 0.75);
+  .Popup{
+    .Footer{
+      .Close span{
+        color: $paragraph-text;
+        :hover{
+          color: $white;
+        }
+      }
+    }
+    .Body{
+      background: $onyx;
+      border-color: $onyx;
+      .Content{
+        color: $dark-gray;
+      }
+      h1{
+        color: $white;
+      }
+      .P{
+        color: $silver-sand;
+      }
+    }
+  }
+}
+
+// Flag Popup/Generic
+.Popup{
+  .Body{
+    .Content{
+      h2{
+        color: $page-headers;
+      }
+      form div{
+        ul li{
+          a{
+            @extend %link;
+          }
+          label{
+            color: $silver-sand;
+          }
+        }
+        textarea{
+          @extend %input-box;
+        }
+      }
+    }
+  }
+}
+
+// Ban User Popup
+.Popup{
+  .WarningMessage{
+    color: $snow;
+    background: $scarlet;
+    a{
+      @extend %link;
+    }
+  }
+}
+
+// Sign in modal
+.Popup.SignInPopup{
+  .Body{
+    .Content{
+      .MainForm{
+        .InputBox{
+          @extend %input-box;
+        }
+        .ForgotPassword{
+          @extend %link;
+        }
+      }
+      .Buttons{
+        .Button.Primary{
+          width: 5.625rem;
+        }
+        .CreateAccount{
+          color: $paragraph-text;
+          a{
+            @extend %link;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Popup Close X Button
+.Overlay > .Popup a.Close{
+  span{
+    &:hover{
+      color: $white;
+    }
+  }
+}
